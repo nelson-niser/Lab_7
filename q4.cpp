@@ -15,10 +15,11 @@ else
 
 int main()
 {
-int a, b;
-cin >> a >> b;
+int a;
+cout << "Enter a number n to find sum of all natural numbers between 1 to n: "; 
+cin >> a;
 
-cout << sum(a,b-1) <<endl;
+cout << sum(0,a-1) <<endl;
 
 return 0;
 }
