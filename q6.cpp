@@ -19,7 +19,7 @@ else
 int main()
 {
 int a;
-
+cout << "Enter a number to find reverse of the number: ";
 cin >> a;
 
 fx(a);
